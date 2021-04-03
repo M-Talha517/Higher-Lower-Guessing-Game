@@ -1,7 +1,7 @@
 from game_data import data
 from art import logo,vs
 from random import choice
-from system from os
+from os import system
 
 def getRandomData(data):
   statement = choice(data)
