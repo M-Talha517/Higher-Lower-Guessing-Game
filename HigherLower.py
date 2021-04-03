@@ -1,7 +1,7 @@
 from game_data import data
 from art import logo,vs
 from random import choice
-from replit import clear
+from system from os
 
 def getRandomData(data):
   statement = choice(data)
@@ -28,7 +28,7 @@ def main():
     printData(statementA[0],statementB[0])
     user_guess = input("Which Do You Think has More Follower Count. 'A' or 'B' : ").lower()
     if checkResult(statementA[1],statementB[1],user_guess):
-      clear()
+      system('cls')
       score += 1;
       print(f'Correct Guess .Your Score is {score}')
     else:
