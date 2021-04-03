@@ -44,4 +44,4 @@ def checkResult(first,second,guess):
 
 
 main()
-
+input('Press Enter To Exit')
